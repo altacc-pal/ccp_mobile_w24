@@ -74,7 +74,7 @@ ul {
     padding: 15px;
 }
 
-.skip-link{
+.skip-link {
     position: absolute;
     top: -40px;
     left: 15px;
@@ -84,11 +84,11 @@ ul {
     text-decoration: none;
 }
 
-.skip-link:focus{
+.skip-link:focus {
     top: 50px;
 }
 
-.skip-link:focus-visible{
+.skip-link:focus-visible {
     top: 50px;
 }
 
@@ -110,4 +110,11 @@ ul {
     background-color: #7fbf8a;
     color: #000000;
     text-decoration: underline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    img, video, .animation-class {
+      animation: none !important;
+      transition: none !important;
+    }
 }
