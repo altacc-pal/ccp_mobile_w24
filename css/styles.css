@@ -17,6 +17,7 @@ body {
 }
 
 .navbar a.active {
-    background-color: #5b8e6e;
+    background-color: #7fbf8a;
+    color: #000000;
     text-decoration: underline;
 }
