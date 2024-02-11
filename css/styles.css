@@ -1,6 +1,10 @@
+body {
+    background-color: #EDF4F2;
+}
+
 .navbar {
     overflow: hidden;
-    background-color: #333;
+    background-color: #31473A;
 }
 
 .navbar a {
@@ -13,6 +17,6 @@
 }
 
 .navbar a.active {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #5b8e6e;
+    text-decoration: underline;
 }
