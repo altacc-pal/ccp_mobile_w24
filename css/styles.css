@@ -2,6 +2,23 @@ body {
     background-color: #EDF4F2;
 }
 
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+.skip-link:focus,
+.skip-link:focus-visible {
+    opacity: 1; /* Show when focused */
+}
+
 .navbar {
     overflow: hidden;
     background-color: #31473A;
