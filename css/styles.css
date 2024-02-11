@@ -65,18 +65,18 @@ ul {
     position: absolute;
     top: -40px;
     left: 15px;
-    background-color: #000000 ;
+    background-color: #31473A;
     color: #FFFFFF;
     z-index: 999;
     text-decoration: none;
 }
 
 .skip-link:focus{
-    top: 0;
+    top: 80px;
 }
 
 .skip-link:focus-visible{
-    top: 0;
+    top: 80px;
 }
 
 .navbar {
