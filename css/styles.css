@@ -2,21 +2,22 @@ body {
     background-color: #EDF4F2;
 }
 
-.skip-link {
+.skip-link{
     position: absolute;
     top: -40px;
-    left: 0;
-    background-color: #333;
-    color: #fff;
-    padding: 5px;
-    z-index: 100;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
+    left: 15px;
+    background-color: #000000 ;
+    color: #FFFFFF;
+    z-index: 999;
+    text-decoration: none;
 }
-  
-.skip-link:focus,
-.skip-link:focus-visible {
-    opacity: 1; /* Show when focused */
+
+.skip-link:focus{
+    top: 0;
+}
+
+.skip-link:focus-visible{
+    top: 0;
 }
 
 .navbar {
