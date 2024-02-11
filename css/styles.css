@@ -2,11 +2,51 @@ body {
     background-color: #cbd9d5;
 }
 
+h1 {
+    font-family: "SF Pro Display", "Helvetica Neue", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #353535;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
 p {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #000000;
     margin-bottom: 10px;
+    background-color: #b5dad0;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .three-grid-gallery {
